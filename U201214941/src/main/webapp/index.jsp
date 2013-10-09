@@ -9,7 +9,7 @@
         <title>Sunat/Deudas</title>
     </head>
     <body>
-        Cargando....
+        Esperandos....
     </body>
 </html>
 
