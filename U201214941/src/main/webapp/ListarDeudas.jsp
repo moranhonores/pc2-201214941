@@ -16,7 +16,7 @@
         <div name="page" class="page"> 
             <form:form commandName="frmdeudas">
                 <table border="0" align="center">
-                    <tr >
+                    <tr>
                         <td>&nbsp;</td>
                         <td><label><h1>Lista de Deudas</h1></label></td>
                         <td>&nbsp;</td>
@@ -31,13 +31,13 @@
 
                 <table border="0" align="center">
                     <tr>
-                        <td style="border: 2px solid #000;">Id Deuda</td>
-                        <td style="border: 2px solid #000;">RUC</td>               
-                        <td style="border: 2px solid #000;">Motivo</td>
-                        <td style="border: 2px solid #000;">Periodo Tributo</td>
-                        <td style="border: 2px solid #000;">Resolucion</td>
-                        <td style="border: 2px solid #000;">Codigo Tributo</td>
-                        <td style="border: 2px solid #000;">Importe</td>
+                        <td style="border: 2px solid #001;">Id Deuda</td>
+                        <td style="border: 2px solid #001;">RUC</td>               
+                        <td style="border: 2px solid #001;">Motivo</td>
+                        <td style="border: 2px solid #001;">Periodo Tributo</td>
+                        <td style="border: 2px solid #001;">Resolucion</td>
+                        <td style="border: 2px solid #001;">Codigo Tributo</td>
+                        <td style="border: 2px solid #001;">Importe</td>
                     </tr> 
                     <c:forEach var="deuda" items="${deuda}">
                         <tr>
