@@ -13,5 +13,6 @@ import java.util.List;
  */
 public interface DeudaDao {
     public List<Deuda> getListDeudas();
+    public Deuda getListRuc(String Ruc);
     
 }
